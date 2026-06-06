@@ -1,9 +1,7 @@
 (function () {
   // Scroll fade-in
   const fadeTargets = document.querySelectorAll(
-    '.section-title, .section-lead, .eyebrow, .story__text, .stats, ' +
-    '.menu-card, .seasons-item, .seasons-quote, .timeline, ' +
-    '.access__grid, .reserve-panel'
+    '.section-title, .section-lead, .eyebrow, .stats, .seasons-quote, .reserve-panel'
   );
   if ('IntersectionObserver' in window) {
     fadeTargets.forEach(el => el.classList.add('fade-in'));
@@ -14,7 +12,7 @@
           observer.unobserve(entry.target);
         }
       });
-    }, { threshold: 0.12 });
+    }, { threshold: 0.05 });
     fadeTargets.forEach(el => observer.observe(el));
   }
 
