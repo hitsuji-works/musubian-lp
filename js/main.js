@@ -1,4 +1,24 @@
 (function () {
+  // Scroll fade-in
+  const fadeTargets = document.querySelectorAll(
+    '.section-title, .section-lead, .eyebrow, .story__text, .stats, ' +
+    '.menu-card, .seasons-item, .seasons-quote, .timeline, ' +
+    '.access__grid, .reserve-panel'
+  );
+  if ('IntersectionObserver' in window) {
+    fadeTargets.forEach(el => el.classList.add('fade-in'));
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('is-visible');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.12 });
+    fadeTargets.forEach(el => observer.observe(el));
+  }
+
+  // Mobile nav
   const toggle = document.querySelector('.nav-toggle');
   const nav = document.querySelector('.nav');
   const links = nav.querySelectorAll('a');
