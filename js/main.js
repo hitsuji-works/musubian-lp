@@ -1,7 +1,7 @@
 (function () {
   // Scroll fade-in
   const fadeTargets = document.querySelectorAll(
-    '.section-title, .section-lead, .eyebrow, .stats, .seasons-quote, .reserve-panel'
+    '.section-title, .section-lead, .eyebrow, .seasons-quote'
   );
   if ('IntersectionObserver' in window) {
     fadeTargets.forEach(el => el.classList.add('fade-in'));
