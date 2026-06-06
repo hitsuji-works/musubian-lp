@@ -18,7 +18,7 @@
   --font-sans-en: "Inter", sans-serif;
 
   --max-width: 1200px;
-  --section-gap: clamp(80px, 12vw, 160px);
+  --section-gap: clamp(60px, 7vw, 120px);
   --gutter: clamp(24px, 5vw, 96px);
   --radius-lg: 24px;
   --radius-md: 20px;
@@ -560,6 +560,14 @@ ul {
   color: var(--color-text);
 }
 
+.timeline__desc {
+  display: block;
+  margin-top: 6px;
+  font-size: 0.875rem;
+  color: var(--color-text-sub);
+  opacity: 0.85;
+}
+
 /* ========================================
    Access
    ======================================== */
@@ -717,15 +725,6 @@ ul {
   text-align: right;
 }
 
-.portfolio-note {
-  text-align: center;
-  margin-top: 32px;
-  padding-top: 24px;
-  border-top: 1px solid var(--color-border);
-  font-size: 0.75rem;
-  color: var(--color-text-sub);
-  opacity: 0.7;
-}
 
 /* ========================================
    Mobile nav overlay
