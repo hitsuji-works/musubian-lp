@@ -1,0 +1,2444 @@
+{
+  "version": "2.11",
+  "children": [
+    {
+      "type": "frame",
+      "id": "nCzzg",
+      "x": 0,
+      "y": 0,
+      "name": "Section 1 Hero",
+      "width": 1280,
+      "height": 860,
+      "fill": "#FAF7F2",
+      "layout": "none",
+      "children": [
+        {
+          "type": "frame",
+          "id": "w2lMZu",
+          "x": 64,
+          "y": 48,
+          "name": "Hero Photo Placeholder",
+          "metadata": {
+            "type": "unsplash",
+            "username": "tsuyoshikozu",
+            "link": "https://unsplash.com/@tsuyoshikozu",
+            "author": "Tsuyoshi Kozu"
+          },
+          "clip": true,
+          "width": 1152,
+          "height": 764,
+          "fill": {
+            "type": "image",
+            "enabled": true,
+            "url": "https://images.unsplash.com/photo-1753849805808-a30c181a847a?fm=jpg&q=80&w=2400&auto=format&fit=crop&ixlib=rb-4.1.0",
+            "mode": "fill"
+          },
+          "cornerRadius": 24,
+          "layout": "none",
+          "children": [
+            {
+              "type": "frame",
+              "id": "TFVsr",
+              "x": 0,
+              "y": 0,
+              "name": "photoShade",
+              "opacity": 0.14,
+              "width": 1152,
+              "height": 764,
+              "fill": "#1A1A1A"
+            },
+            {
+              "type": "text",
+              "id": "l1LjCS",
+              "x": 36,
+              "y": 700,
+              "name": "photoLabel",
+              "fill": "#FAF7F2",
+              "content": "朝霧の吉野山と古民家（写真プレースホルダー）",
+              "fontFamily": "Noto Sans JP",
+              "fontSize": 14,
+              "letterSpacing": 0.05
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "id": "f4dO3",
+          "x": 100,
+          "y": 88,
+          "name": "brandTag",
+          "fill": "#FAF7F2",
+          "content": "古民家茶寮 結庵",
+          "fontFamily": "Cormorant Garamond",
+          "fontSize": 24,
+          "fontWeight": "500",
+          "letterSpacing": 0.02
+        },
+        {
+          "type": "frame",
+          "id": "o0p8O",
+          "x": 700,
+          "y": 86,
+          "name": "navRow",
+          "width": 420,
+          "height": 36,
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "t8tpV",
+              "name": "nav1",
+              "fill": "#FAF7F2",
+              "content": "結庵について",
+              "fontFamily": "Noto Sans JP",
+              "fontSize": 14,
+              "letterSpacing": 0.05
+            },
+            {
+              "type": "text",
+              "id": "mmmBt",
+              "name": "nav2",
+              "fill": "#FAF7F2",
+              "content": "お品書き",
+              "fontFamily": "Noto Sans JP",
+              "fontSize": 14,
+              "letterSpacing": 0.05
+            },
+            {
+              "type": "text",
+              "id": "PxOmZ",
+              "name": "nav3",
+              "fill": "#FAF7F2",
+              "content": "庵の四季",
+              "fontFamily": "Noto Sans JP",
+              "fontSize": 14,
+              "letterSpacing": 0.05
+            },
+            {
+              "type": "text",
+              "id": "m2XgOy",
+              "name": "nav4",
+              "fill": "#FAF7F2",
+              "content": "アクセス",
+              "fontFamily": "Noto Sans JP",
+              "fontSize": 14,
+              "letterSpacing": 0.05
+            },
+            {
+              "type": "text",
+              "id": "Xtuy5",
+              "name": "nav5",
+              "fill": "#FAF7F2",
+              "content": "ご予約",
+              "fontFamily": "Noto Sans JP",
+              "fontSize": 14,
+              "letterSpacing": 0.05
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "t35ZP",
+          "x": 112,
+          "y": 292,
+          "name": "heroCopy",
+          "width": 560,
+          "layout": "vertical",
+          "gap": 28,
+          "children": [
+            {
+              "type": "text",
+              "id": "gutn5",
+              "name": "heroTitle",
+              "fill": "#FAF7F2",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "山と、お茶と、\nゆるやかな時間。",
+              "lineHeight": 1.22,
+              "fontFamily": "Noto Serif JP",
+              "fontSize": 76,
+              "fontWeight": "600",
+              "letterSpacing": 0.05
+            },
+            {
+              "type": "text",
+              "id": "KvQSL",
+              "name": "heroSub",
+              "fill": "#FAF7F2",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "奈良・吉野山の中腹、築140年の庵にて。",
+              "lineHeight": 1.75,
+              "fontFamily": "Noto Sans JP",
+              "fontSize": 18,
+              "letterSpacing": 0.05
+            },
+            {
+              "type": "frame",
+              "id": "IKyB1",
+              "name": "ctaRow",
+              "gap": 20,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "u6CrLH",
+                  "name": "primaryBtn",
+                  "fill": "#8B6F47",
+                  "cornerRadius": 999,
+                  "padding": [
+                    32,
+                    16
+                  ],
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "i1E7X4",
+                      "name": "primaryTxt",
+                      "fill": "#FAF7F2",
+                      "content": "ご予約はこちら",
+                      "fontFamily": "Noto Sans JP",
+                      "fontSize": 16,
+                      "fontWeight": "500",
+                      "letterSpacing": 0.05
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "Z2nmvW",
+                  "name": "secondaryTxt",
+                  "fill": "#FAF7F2",
+                  "content": "結庵について",
+                  "fontFamily": "Noto Sans JP",
+                  "fontSize": 16,
+                  "letterSpacing": 0.05
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "f2XAw",
+      "x": 0,
+      "y": 1000,
+      "name": "Section 2 Story",
+      "width": 1280,
+      "height": 760,
+      "fill": "#FAF7F2",
+      "layout": "none",
+      "children": [
+        {
+          "type": "frame",
+          "id": "hfrLO",
+          "x": 96,
+          "y": 96,
+          "name": "Story Photo Placeholder",
+          "metadata": {
+            "type": "unsplash",
+            "username": "verymatcha",
+            "link": "https://unsplash.com/@verymatcha",
+            "author": "Very Matcha"
+          },
+          "clip": true,
+          "width": 468,
+          "height": 568,
+          "fill": {
+            "type": "image",
+            "enabled": true,
+            "url": "https://images.unsplash.com/photo-1765035058192-edd7ee3e0df0?fm=jpg&q=80&w=1600&auto=format&fit=crop&ixlib=rb-4.1.0",
+            "mode": "fill"
+          },
+          "cornerRadius": 20,
+          "layout": "none",
+          "children": [
+            {
+              "type": "frame",
+              "id": "fJYe3",
+              "x": 0,
+              "y": 0,
+              "name": "storyShade",
+              "opacity": 0.1,
+              "width": 468,
+              "height": 568,
+              "fill": "#6B7A4B"
+            },
+            {
+              "type": "text",
+              "id": "c2IhWx",
+              "x": 24,
+              "y": 526,
+              "name": "storyPhotoLabel",
+              "fill": "#FAF7F2",
+              "content": "急須を持つ手元（写真プレースホルダー）",
+              "fontFamily": "Noto Sans JP",
+              "fontSize": 13,
+              "letterSpacing": 0.05
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "mEW46",
+          "x": 628,
+          "y": 110,
+          "name": "storyContent",
+          "width": 556,
+          "height": 540,
+          "layout": "vertical",
+          "gap": 28,
+          "children": [
+            {
+              "type": "text",
+              "id": "NjYlM",
+              "name": "storyEyebrow",
+              "fill": "#8B6F47",
+              "content": "ABOUT YUIAN",
+              "fontFamily": "Cormorant Garamond",
+              "fontSize": 20,
+              "fontWeight": "500",
+              "letterSpacing": 0.02
+            },
+            {
+              "type": "text",
+              "id": "Rs7xD",
+              "name": "storyTitle",
+              "fill": "#1A1A1A",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "都会から、吉野の山へ。",
+              "lineHeight": 1.24,
+              "fontFamily": "Noto Serif JP",
+              "fontSize": 52,
+              "fontWeight": "600",
+              "letterSpacing": 0.05
+            },
+            {
+              "type": "text",
+              "id": "hLYIt",
+              "name": "p1",
+              "fill": "#5C5C5C",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "都会で疲れた夫婦が、吉野山の桜を見に来た日から、暮らしの時間は静かに変わり始めました。",
+              "lineHeight": 1.75,
+              "fontFamily": "Noto Sans JP",
+              "fontSize": 17,
+              "letterSpacing": 0.05
+            },
+            {
+              "type": "text",
+              "id": "l7sZE",
+              "name": "p2",
+              "fill": "#5C5C5C",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "朽ちかけていた庄屋邸に出会い、壁の土を塗り、瓦を集め、三年をかけて少しずつ庵を起こしました。",
+              "lineHeight": 1.75,
+              "fontFamily": "Noto Sans JP",
+              "fontSize": 17,
+              "letterSpacing": 0.05
+            },
+            {
+              "type": "text",
+              "id": "tZlBJ",
+              "name": "p3",
+              "fill": "#5C5C5C",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "残したのは梁と欄間と土壁。加えたのは、今の暮らしに合う椅子と、夜をやわらげる灯りです。",
+              "lineHeight": 1.75,
+              "fontFamily": "Noto Sans JP",
+              "fontSize": 17,
+              "letterSpacing": 0.05
+            },
+            {
+              "type": "text",
+              "id": "A9rBn",
+              "name": "p4",
+              "fill": "#5C5C5C",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "ここに来てくれた人に、時間を返したい。その思いだけを、今日も湯気にのせてお出ししています。",
+              "lineHeight": 1.75,
+              "fontFamily": "Noto Sans JP",
+              "fontSize": 17,
+              "letterSpacing": 0.05
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "YwhBW",
+          "x": 628,
+          "y": 654,
+          "name": "statsRow",
+          "width": 556,
+          "height": 62,
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "Cv4Vj",
+              "name": "stat1",
+              "fill": "#8B6F47",
+              "content": "築 140年",
+              "fontFamily": "Noto Serif JP",
+              "fontSize": 32,
+              "fontWeight": "500",
+              "letterSpacing": 0.05
+            },
+            {
+              "type": "text",
+              "id": "q8XVA",
+              "name": "stat2",
+              "fill": "#8B6F47",
+              "content": "修復 3年",
+              "fontFamily": "Noto Serif JP",
+              "fontSize": 32,
+              "fontWeight": "500",
+              "letterSpacing": 0.05
+            },
+            {
+              "type": "text",
+              "id": "H1u8FR",
+              "name": "stat3",
+              "fill": "#8B6F47",
+              "content": "茶葉 18種",
+              "fontFamily": "Noto Serif JP",
+              "fontSize": 32,
+              "fontWeight": "500",
+              "letterSpacing": 0.05
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "YRXg8",
+      "x": 0,
+      "y": 1900,
+      "name": "Section 3 Menu",
+      "width": 1280,
+      "height": 820,
+      "fill": "#FAF7F2",
+      "layout": "none",
+      "children": [
+        {
+          "type": "text",
+          "id": "wUVRQ",
+          "x": 96,
+          "y": 92,
+          "name": "menuTitle",
+          "fill": "#1A1A1A",
+          "content": "お品書き",
+          "lineHeight": 1.24,
+          "fontFamily": "Noto Serif JP",
+          "fontSize": 54,
+          "fontWeight": "600",
+          "letterSpacing": 0.05
+        },
+        {
+          "type": "text",
+          "id": "vLZmE",
+          "x": 96,
+          "y": 164,
+          "name": "menuLead",
+          "fill": "#5C5C5C",
+          "content": "山の恵みを、静かな皿に。",
+          "fontFamily": "Noto Sans JP",
+          "fontSize": 18,
+          "letterSpacing": 0.05
+        },
+        {
+          "type": "frame",
+          "id": "Vaqve",
+          "x": 96,
+          "y": 232,
+          "name": "mainCard",
+          "clip": true,
+          "width": 680,
+          "height": 470,
+          "fill": "#F3EEE5",
+          "cornerRadius": 20,
+          "stroke": {
+            "align": "inside",
+            "thickness": 1,
+            "fill": "#E8E2D8"
+          },
+          "layout": "none",
+          "children": [
+            {
+              "type": "frame",
+              "id": "NGwwm",
+              "x": 0,
+              "y": 0,
+              "name": "mainPhoto",
+              "metadata": {
+                "type": "unsplash",
+                "username": "yosuke_ota",
+                "link": "https://unsplash.com/@yosuke_ota",
+                "author": "Yosuke Ota"
+              },
+              "width": 680,
+              "height": 280,
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "https://images.unsplash.com/photo-1766582931800-fd79665257fa?fm=jpg&q=80&w=2400&auto=format&fit=crop&ixlib=rb-4.1.0",
+                "mode": "fill"
+              },
+              "cornerRadius": [
+                20,
+                20,
+                0,
+                0
+              ]
+            },
+            {
+              "type": "text",
+              "id": "eCren",
+              "x": 28,
+              "y": 312,
+              "name": "mainName",
+              "fill": "#1A1A1A",
+              "content": "葛と季節の御膳  ¥3,800",
+              "fontFamily": "Noto Serif JP",
+              "fontSize": 34,
+              "fontWeight": "500",
+              "letterSpacing": 0.05
+            },
+            {
+              "type": "text",
+              "id": "m9Aox",
+              "x": 28,
+              "y": 370,
+              "name": "mainDesc",
+              "fill": "#5C5C5C",
+              "textGrowth": "fixed-width",
+              "width": 624,
+              "content": "吉野本葛を使った主菜、季節の野草の小鉢、月ヶ瀬の煎茶。山の恵みを一皿に。",
+              "lineHeight": 1.75,
+              "fontFamily": "Noto Sans JP",
+              "fontSize": 17,
+              "letterSpacing": 0.05
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "Ev08i",
+          "x": 810,
+          "y": 232,
+          "name": "subCard1",
+          "clip": true,
+          "width": 374,
+          "height": 220,
+          "fill": "#F3EEE5",
+          "cornerRadius": 18,
+          "stroke": {
+            "align": "inside",
+            "thickness": 1,
+            "fill": "#E8E2D8"
+          },
+          "layout": "none",
+          "children": [
+            {
+              "type": "frame",
+              "id": "hn7E0",
+              "x": 0,
+              "y": 0,
+              "name": "sub1Photo",
+              "metadata": {
+                "type": "unsplash",
+                "username": "harrisonchang",
+                "link": "https://unsplash.com/@harrisonchang",
+                "author": "Harrison Chang"
+              },
+              "width": 120,
+              "height": 220,
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "https://images.unsplash.com/photo-1717815963416-1e905dace677?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgwODAzMDR8&ixlib=rb-4.1.0&q=80&w=1080",
+                "mode": "fill"
+              }
+            },
+            {
+              "type": "text",
+              "id": "WUwJz",
+              "x": 142,
+              "y": 30,
+              "name": "sub1Name",
+              "fill": "#1A1A1A",
+              "textGrowth": "fixed-width",
+              "width": 206,
+              "content": "結庵の葛きり  ¥1,400",
+              "lineHeight": 1.25,
+              "fontFamily": "Noto Serif JP",
+              "fontSize": 22,
+              "fontWeight": "500",
+              "letterSpacing": 0.05
+            },
+            {
+              "type": "text",
+              "id": "QTzo0",
+              "x": 142,
+              "y": 80,
+              "name": "sub1Desc",
+              "fill": "#5C5C5C",
+              "textGrowth": "fixed-width",
+              "width": 206,
+              "content": "毎朝練り上げる看板の甘味。黒蜜か抹茶蜜を選べます。",
+              "lineHeight": 1.72,
+              "fontFamily": "Noto Sans JP",
+              "fontSize": 15,
+              "letterSpacing": 0.05
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "YP0wa",
+          "x": 810,
+          "y": 482,
+          "name": "subCard2",
+          "clip": true,
+          "width": 374,
+          "height": 220,
+          "fill": "#F3EEE5",
+          "cornerRadius": 18,
+          "stroke": {
+            "align": "inside",
+            "thickness": 1,
+            "fill": "#E8E2D8"
+          },
+          "layout": "none",
+          "children": [
+            {
+              "type": "frame",
+              "id": "FOjKU",
+              "x": 0,
+              "y": 0,
+              "name": "sub2Photo",
+              "metadata": {
+                "type": "unsplash",
+                "username": "lidiya_pavlikova",
+                "link": "https://unsplash.com/@lidiya_pavlikova",
+                "author": "Lidiya Pavlikova"
+              },
+              "width": 120,
+              "height": 220,
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "https://images.unsplash.com/photo-1596710629144-6f6abf933384?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgwODAzMDR8&ixlib=rb-4.1.0&q=80&w=1080",
+                "mode": "fill"
+              }
+            },
+            {
+              "type": "text",
+              "id": "xeAbk",
+              "x": 142,
+              "y": 30,
+              "name": "sub2Name",
+              "fill": "#1A1A1A",
+              "textGrowth": "fixed-width",
+              "width": 206,
+              "content": "山の薬草茶  ¥800",
+              "lineHeight": 1.25,
+              "fontFamily": "Noto Serif JP",
+              "fontSize": 22,
+              "fontWeight": "500",
+              "letterSpacing": 0.05
+            },
+            {
+              "type": "text",
+              "id": "K9YgD",
+              "x": 142,
+              "y": 80,
+              "name": "sub2Desc",
+              "fill": "#5C5C5C",
+              "textGrowth": "fixed-width",
+              "width": 206,
+              "content": "裏山で摘んだ草を季節で調合。一杯ごとに香りが異なります。",
+              "lineHeight": 1.72,
+              "fontFamily": "Noto Sans JP",
+              "fontSize": 15,
+              "letterSpacing": 0.05
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "id": "Kjqid",
+          "x": 96,
+          "y": 744,
+          "name": "menuLink",
+          "fill": "#8B6F47",
+          "content": "お品書きをすべて見る",
+          "fontFamily": "Noto Sans JP",
+          "fontSize": 17,
+          "fontWeight": "500",
+          "letterSpacing": 0.05
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "zF9N8",
+      "x": 0,
+      "y": 2860,
+      "name": "Section 4 Seasons",
+      "width": 1280,
+      "height": 980,
+      "fill": "#FAF7F2",
+      "layout": "none",
+      "children": [
+        {
+          "type": "text",
+          "id": "yIGqT",
+          "x": 96,
+          "y": 92,
+          "name": "seasonTitle",
+          "fill": "#1A1A1A",
+          "content": "庵の四季",
+          "lineHeight": 1.24,
+          "fontFamily": "Noto Serif JP",
+          "fontSize": 54,
+          "fontWeight": "600",
+          "letterSpacing": 0.05
+        },
+        {
+          "type": "text",
+          "id": "OSwjI",
+          "x": 390,
+          "y": 200,
+          "name": "quote",
+          "fill": "#8B6F47",
+          "content": "「古い家には、時間が住んでいる。」",
+          "fontFamily": "Noto Serif JP",
+          "fontSize": 34,
+          "fontWeight": "500",
+          "letterSpacing": 0.05
+        },
+        {
+          "type": "frame",
+          "id": "q446VM",
+          "x": 96,
+          "y": 292,
+          "name": "spring",
+          "metadata": {
+            "type": "unsplash",
+            "username": "sorasagano",
+            "link": "https://unsplash.com/@sorasagano",
+            "author": "Sora Sagano"
+          },
+          "clip": true,
+          "width": 430,
+          "height": 520,
+          "fill": {
+            "type": "image",
+            "enabled": true,
+            "url": "https://images.unsplash.com/photo-1521991604932-7b90b3efc0f6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgxNjQ1NTN8&ixlib=rb-4.1.0&q=80&w=1080",
+            "mode": "fill"
+          },
+          "cornerRadius": 24,
+          "layout": "none",
+          "children": [
+            {
+              "type": "text",
+              "id": "UKMgq",
+              "x": 24,
+              "y": 486,
+              "name": "springCap",
+              "fill": "#FAF7F2",
+              "content": "春は、桜が屋根まで届きます",
+              "fontFamily": "Noto Sans JP",
+              "fontSize": 14,
+              "letterSpacing": 0.05
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "OD1AL",
+          "x": 558,
+          "y": 292,
+          "name": "summer",
+          "metadata": {
+            "type": "unsplash",
+            "username": "yosuke_ota",
+            "link": "https://unsplash.com/@yosuke_ota",
+            "author": "Yosuke Ota"
+          },
+          "clip": true,
+          "width": 288,
+          "height": 260,
+          "fill": {
+            "type": "image",
+            "enabled": true,
+            "url": "https://images.unsplash.com/photo-1766585256352-6c92ad6158ec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgxNjQ1NTN8&ixlib=rb-4.1.0&q=80&w=1080",
+            "mode": "fill"
+          },
+          "cornerRadius": 18,
+          "layout": "none",
+          "children": [
+            {
+              "type": "text",
+              "id": "Q9AAT",
+              "x": 18,
+              "y": 228,
+              "name": "summerCap",
+              "fill": "#FAF7F2",
+              "content": "夏の朝は、虫の声で目が覚めます",
+              "fontFamily": "Noto Sans JP",
+              "fontSize": 12,
+              "letterSpacing": 0.05
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "tt6r8",
+          "x": 878,
+          "y": 292,
+          "name": "autumn",
+          "metadata": {
+            "type": "unsplash",
+            "username": "squids93",
+            "link": "https://unsplash.com/@squids93",
+            "author": "Squids Z"
+          },
+          "clip": true,
+          "width": 306,
+          "height": 346,
+          "fill": {
+            "type": "image",
+            "enabled": true,
+            "url": "https://images.unsplash.com/photo-1765158098496-afd5fa1401da?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgxNjQ1NTR8&ixlib=rb-4.1.0&q=80&w=1080",
+            "mode": "fill"
+          },
+          "cornerRadius": 20,
+          "layout": "none",
+          "children": [
+            {
+              "type": "text",
+              "id": "dZp6f",
+              "x": 18,
+              "y": 312,
+              "name": "autumnCap",
+              "fill": "#FAF7F2",
+              "content": "秋には、栗を拾いに山へ",
+              "fontFamily": "Noto Sans JP",
+              "fontSize": 12,
+              "letterSpacing": 0.05
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "BdzEs",
+          "x": 558,
+          "y": 584,
+          "name": "winter",
+          "metadata": {
+            "type": "unsplash",
+            "username": "stanleyc",
+            "link": "https://unsplash.com/@stanleyc",
+            "author": "Stanley Cheung"
+          },
+          "clip": true,
+          "width": 626,
+          "height": 300,
+          "fill": {
+            "type": "image",
+            "enabled": true,
+            "url": "https://images.unsplash.com/photo-1598284391872-da71a09fa214?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgxNjQ1NTV8&ixlib=rb-4.1.0&q=80&w=1080",
+            "mode": "fill"
+          },
+          "cornerRadius": 24,
+          "layout": "none",
+          "children": [
+            {
+              "type": "text",
+              "id": "M9wbh",
+              "x": 22,
+              "y": 266,
+              "name": "winterCap",
+              "fill": "#FAF7F2",
+              "content": "冬の囲炉裏は、誰かが必ず火を絶やさない",
+              "fontFamily": "Noto Sans JP",
+              "fontSize": 14,
+              "letterSpacing": 0.05
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "SjGQP",
+      "x": 0,
+      "y": 3980,
+      "name": "Section 5 Timeline",
+      "width": 1280,
+      "height": 760,
+      "fill": "#FAF7F2",
+      "layout": "none",
+      "children": [
+        {
+          "type": "text",
+          "id": "jlurq",
+          "x": 96,
+          "y": 86,
+          "name": "timeTitle",
+          "fill": "#1A1A1A",
+          "content": "一日の流れ",
+          "lineHeight": 1.24,
+          "fontFamily": "Noto Serif JP",
+          "fontSize": 52,
+          "fontWeight": "600",
+          "letterSpacing": 0.05
+        },
+        {
+          "type": "text",
+          "id": "fbH4a",
+          "x": 96,
+          "y": 156,
+          "name": "lead",
+          "fill": "#5C5C5C",
+          "content": "結庵で過ごす、ゆるやかな五つの時間。",
+          "fontFamily": "Noto Sans JP",
+          "fontSize": 17,
+          "letterSpacing": 0.05
+        },
+        {
+          "type": "frame",
+          "id": "y2qtPp",
+          "x": 96,
+          "y": 208,
+          "name": "panel",
+          "width": 1088,
+          "height": 468,
+          "fill": "#F3EEE5",
+          "cornerRadius": 24,
+          "stroke": {
+            "align": "inside",
+            "thickness": 1,
+            "fill": "#E8E2D8"
+          },
+          "layout": "none",
+          "children": [
+            {
+              "type": "ellipse",
+              "id": "Uj91g",
+              "x": 38,
+              "y": 36,
+              "name": "orb1",
+              "opacity": 0.14,
+              "fill": "#C9B89A",
+              "width": 220,
+              "height": 220
+            },
+            {
+              "type": "ellipse",
+              "id": "OrDrm",
+              "x": 864,
+              "y": 228,
+              "name": "orb2",
+              "opacity": 0.1,
+              "fill": "#6B7A4B",
+              "width": 186,
+              "height": 186
+            },
+            {
+              "type": "line",
+              "id": "MFG8r",
+              "x": 544,
+              "y": 58,
+              "name": "axis",
+              "width": 0,
+              "height": 350,
+              "stroke": {
+                "align": "center",
+                "thickness": 2,
+                "fill": "#C9B89A"
+              }
+            },
+            {
+              "type": "ellipse",
+              "id": "BuViA",
+              "x": 537,
+              "y": 80,
+              "name": "dot1",
+              "fill": "#8B6F47",
+              "width": 14,
+              "height": 14
+            },
+            {
+              "type": "ellipse",
+              "id": "X5o5Zo",
+              "x": 537,
+              "y": 148,
+              "name": "dot2",
+              "fill": "#8B6F47",
+              "width": 14,
+              "height": 14
+            },
+            {
+              "type": "ellipse",
+              "id": "y5YBP",
+              "x": 537,
+              "y": 216,
+              "name": "dot3",
+              "fill": "#8B6F47",
+              "width": 14,
+              "height": 14
+            },
+            {
+              "type": "ellipse",
+              "id": "IUJFG",
+              "x": 537,
+              "y": 284,
+              "name": "dot4",
+              "fill": "#8B6F47",
+              "width": 14,
+              "height": 14
+            },
+            {
+              "type": "ellipse",
+              "id": "j1IRm",
+              "x": 537,
+              "y": 352,
+              "name": "dot5",
+              "fill": "#8B6F47",
+              "width": 14,
+              "height": 14
+            },
+            {
+              "type": "frame",
+              "id": "k7o13",
+              "x": 138,
+              "y": 62,
+              "name": "card1",
+              "width": 346,
+              "height": 68,
+              "fill": "#FAF7F2",
+              "cornerRadius": 12,
+              "stroke": {
+                "align": "inside",
+                "thickness": 1,
+                "fill": "#E8E2D8"
+              },
+              "layout": "none",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Id3wu",
+                  "x": 18,
+                  "y": 16,
+                  "name": "text1",
+                  "fill": "#5C5C5C",
+                  "content": "11:00  お迎えと、最初のお茶",
+                  "fontFamily": "Noto Sans JP",
+                  "fontSize": 16,
+                  "letterSpacing": 0.05
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "TDGy7",
+              "x": 600,
+              "y": 130,
+              "name": "card2",
+              "width": 346,
+              "height": 68,
+              "fill": "#FAF7F2",
+              "cornerRadius": 12,
+              "stroke": {
+                "align": "inside",
+                "thickness": 1,
+                "fill": "#E8E2D8"
+              },
+              "layout": "none",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "QCLuY",
+                  "x": 18,
+                  "y": 16,
+                  "name": "text2",
+                  "fill": "#5C5C5C",
+                  "content": "12:00  季節の御膳",
+                  "fontFamily": "Noto Sans JP",
+                  "fontSize": 16,
+                  "letterSpacing": 0.05
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "X4dst",
+              "x": 138,
+              "y": 198,
+              "name": "card3",
+              "width": 346,
+              "height": 68,
+              "fill": "#FAF7F2",
+              "cornerRadius": 12,
+              "stroke": {
+                "align": "inside",
+                "thickness": 1,
+                "fill": "#E8E2D8"
+              },
+              "layout": "none",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "xszaF",
+                  "x": 18,
+                  "y": 16,
+                  "name": "text3",
+                  "fill": "#5C5C5C",
+                  "content": "14:00  庭を歩く時間",
+                  "fontFamily": "Noto Sans JP",
+                  "fontSize": 16,
+                  "letterSpacing": 0.05
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "q5B7C",
+              "x": 600,
+              "y": 266,
+              "name": "card4",
+              "width": 346,
+              "height": 68,
+              "fill": "#FAF7F2",
+              "cornerRadius": 12,
+              "stroke": {
+                "align": "inside",
+                "thickness": 1,
+                "fill": "#E8E2D8"
+              },
+              "layout": "none",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "yUBIn",
+                  "x": 18,
+                  "y": 16,
+                  "name": "text4",
+                  "fill": "#5C5C5C",
+                  "content": "15:00  蔵席で甘味を",
+                  "fontFamily": "Noto Sans JP",
+                  "fontSize": 16,
+                  "letterSpacing": 0.05
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "aoJk5",
+              "x": 138,
+              "y": 334,
+              "name": "card5",
+              "width": 346,
+              "height": 68,
+              "fill": "#FAF7F2",
+              "cornerRadius": 12,
+              "stroke": {
+                "align": "inside",
+                "thickness": 1,
+                "fill": "#E8E2D8"
+              },
+              "layout": "none",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "K6zqik",
+                  "x": 18,
+                  "y": 16,
+                  "name": "text5",
+                  "fill": "#5C5C5C",
+                  "content": "16:30  帰り際の一服",
+                  "fontFamily": "Noto Sans JP",
+                  "fontSize": 16,
+                  "letterSpacing": 0.05
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "Lvakp",
+      "x": 0,
+      "y": 4880,
+      "name": "Section 6 Access",
+      "width": 1280,
+      "height": 700,
+      "fill": "#FAF7F2",
+      "layout": "none",
+      "children": [
+        {
+          "type": "text",
+          "id": "GPq07",
+          "x": 96,
+          "y": 92,
+          "name": "accessTitle",
+          "fill": "#1A1A1A",
+          "content": "アクセス",
+          "lineHeight": 1.24,
+          "fontFamily": "Noto Serif JP",
+          "fontSize": 54,
+          "fontWeight": "600",
+          "letterSpacing": 0.05
+        },
+        {
+          "type": "frame",
+          "id": "dqbzh",
+          "x": 96,
+          "y": 188,
+          "name": "mapBox",
+          "clip": true,
+          "width": 520,
+          "height": 420,
+          "fill": "#F3EEE5",
+          "cornerRadius": 20,
+          "stroke": {
+            "align": "inside",
+            "thickness": 1,
+            "fill": "#E8E2D8"
+          },
+          "layout": "none",
+          "children": [
+            {
+              "type": "line",
+              "id": "nZNJg",
+              "x": 48,
+              "y": 58,
+              "name": "mapLine1",
+              "width": 220,
+              "height": 120,
+              "stroke": {
+                "align": "center",
+                "thickness": 2,
+                "fill": "#8B6F47"
+              }
+            },
+            {
+              "type": "line",
+              "id": "AGBRb",
+              "x": 256,
+              "y": 178,
+              "name": "mapLine2",
+              "width": 190,
+              "height": 120,
+              "stroke": {
+                "align": "center",
+                "thickness": 2,
+                "fill": "#6B7A4B"
+              }
+            },
+            {
+              "type": "ellipse",
+              "id": "ImiFa",
+              "x": 236,
+              "y": 168,
+              "name": "mapPoint",
+              "fill": "#C9B89A",
+              "width": 48,
+              "height": 48,
+              "stroke": {
+                "align": "center",
+                "thickness": 2,
+                "fill": "#8B6F47"
+              }
+            },
+            {
+              "type": "text",
+              "id": "l9zLTb",
+              "x": 176,
+              "y": 238,
+              "name": "mapLabel",
+              "fill": "#1A1A1A",
+              "content": "古民家茶寮 結庵",
+              "fontFamily": "Noto Serif JP",
+              "fontSize": 24,
+              "fontWeight": "500",
+              "letterSpacing": 0.05
+            },
+            {
+              "type": "text",
+              "id": "rghln",
+              "x": 24,
+              "y": 384,
+              "name": "mapNote",
+              "fill": "#5C5C5C",
+              "content": "簡易ルートマップ（プレースホルダー）",
+              "fontFamily": "Noto Sans JP",
+              "fontSize": 13,
+              "letterSpacing": 0.05
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "QIiZ9",
+          "x": 660,
+          "y": 188,
+          "name": "accessInfo",
+          "width": 524,
+          "height": 438,
+          "layout": "vertical",
+          "gap": 22,
+          "children": [
+            {
+              "type": "text",
+              "id": "g1S4C",
+              "name": "addr",
+              "fill": "#1A1A1A",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "奈良県吉野郡吉野町吉野山（架空番地）",
+              "lineHeight": 1.72,
+              "fontFamily": "Noto Sans JP",
+              "fontSize": 18,
+              "fontWeight": "500",
+              "letterSpacing": 0.05
+            },
+            {
+              "type": "text",
+              "id": "lFMbJ",
+              "name": "rail",
+              "fill": "#5C5C5C",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "電車でお越しの方\n・近鉄吉野線 吉野駅から車で約15分\n・駅から送迎あり（要事前連絡、無料）",
+              "lineHeight": 1.78,
+              "fontFamily": "Noto Sans JP",
+              "fontSize": 17,
+              "letterSpacing": 0.05
+            },
+            {
+              "type": "text",
+              "id": "FWZp2",
+              "name": "walk",
+              "fill": "#5C5C5C",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "徒歩でお越しの方\n・吉野駅から参道を経由して約30分\n・道中、金峯山寺を通ります",
+              "lineHeight": 1.78,
+              "fontFamily": "Noto Sans JP",
+              "fontSize": 17,
+              "letterSpacing": 0.05
+            },
+            {
+              "type": "text",
+              "id": "MYhFm",
+              "name": "car",
+              "fill": "#5C5C5C",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "お車でお越しの方\n・西名阪自動車道 郡山ICから約1時間\n・駐車場 4台分あり",
+              "lineHeight": 1.78,
+              "fontFamily": "Noto Sans JP",
+              "fontSize": 17,
+              "letterSpacing": 0.05
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "kcAzn",
+      "x": 0,
+      "y": 5720,
+      "name": "Section 7 Reservation",
+      "width": 1280,
+      "height": 540,
+      "fill": "#FAF7F2",
+      "layout": "none",
+      "children": [
+        {
+          "type": "frame",
+          "id": "pzePh",
+          "x": 260,
+          "y": 92,
+          "name": "reservePanel",
+          "width": 760,
+          "height": 356,
+          "fill": "#F3EEE5",
+          "cornerRadius": 20,
+          "stroke": {
+            "align": "inside",
+            "thickness": 1,
+            "fill": "#E8E2D8"
+          },
+          "layout": "vertical",
+          "gap": 28,
+          "padding": [
+            56,
+            44
+          ],
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "EeNhl",
+              "name": "reserveTitle",
+              "fill": "#1A1A1A",
+              "content": "お席のご予約を承ります",
+              "lineHeight": 1.24,
+              "fontFamily": "Noto Serif JP",
+              "fontSize": 46,
+              "fontWeight": "600",
+              "letterSpacing": 0.05
+            },
+            {
+              "type": "text",
+              "id": "d4UQG8",
+              "name": "reserveLead",
+              "fill": "#5C5C5C",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "席数が限られております。お早めのご連絡をお願いいたします。",
+              "lineHeight": 1.75,
+              "textAlign": "center",
+              "fontFamily": "Noto Sans JP",
+              "fontSize": 17,
+              "letterSpacing": 0.05
+            },
+            {
+              "type": "frame",
+              "id": "J61uXn",
+              "name": "btnRow",
+              "gap": 18,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "EtrZl",
+                  "name": "netBtn",
+                  "fill": "#8B6F47",
+                  "cornerRadius": 999,
+                  "padding": [
+                    32,
+                    16
+                  ],
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "w2H1rX",
+                      "name": "netTxt",
+                      "fill": "#FAF7F2",
+                      "content": "ネット予約",
+                      "fontFamily": "Noto Sans JP",
+                      "fontSize": 16,
+                      "fontWeight": "500",
+                      "letterSpacing": 0.05
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "DzZh0",
+                  "name": "phoneBtn",
+                  "cornerRadius": 8,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#8B6F47"
+                  },
+                  "padding": [
+                    32,
+                    16
+                  ],
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "eIG4u",
+                      "name": "phoneTxt",
+                      "fill": "#8B6F47",
+                      "content": "お電話（0746-XX-XXXX）",
+                      "fontFamily": "Noto Sans JP",
+                      "fontSize": 16,
+                      "fontWeight": "500",
+                      "letterSpacing": 0.05
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "k1JAU",
+              "name": "reserveNote",
+              "fill": "#5C5C5C",
+              "content": "当日のお席状況はお電話にて",
+              "fontFamily": "Noto Sans JP",
+              "fontSize": 14,
+              "letterSpacing": 0.05
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "fzmyW",
+      "x": 0,
+      "y": 6400,
+      "name": "Section 8 Footer",
+      "width": 1280,
+      "height": 280,
+      "fill": "#F3EEE5",
+      "layout": "none",
+      "children": [
+        {
+          "type": "text",
+          "id": "ZLIWq",
+          "x": 96,
+          "y": 58,
+          "name": "logo",
+          "fill": "#1A1A1A",
+          "content": "結庵",
+          "fontFamily": "Cormorant Garamond",
+          "fontSize": 52,
+          "fontWeight": "500",
+          "letterSpacing": 0.02
+        },
+        {
+          "type": "text",
+          "id": "UgFsk",
+          "x": 96,
+          "y": 132,
+          "name": "info1",
+          "fill": "#5C5C5C",
+          "content": "木〜日 11:00 - 17:00（LO 16:30）  /  定休日 月・火・水",
+          "fontFamily": "Noto Sans JP",
+          "fontSize": 14,
+          "letterSpacing": 0.05
+        },
+        {
+          "type": "text",
+          "id": "a1aOF",
+          "x": 96,
+          "y": 160,
+          "name": "info2",
+          "fill": "#5C5C5C",
+          "content": "奈良県吉野郡吉野町吉野山（架空番地）",
+          "fontFamily": "Noto Sans JP",
+          "fontSize": 14,
+          "letterSpacing": 0.05
+        },
+        {
+          "type": "ellipse",
+          "id": "YlHmV",
+          "x": 1066,
+          "y": 66,
+          "name": "instaIcon",
+          "width": 30,
+          "height": 30,
+          "stroke": {
+            "align": "center",
+            "thickness": 1.5,
+            "fill": "#8B6F47"
+          }
+        },
+        {
+          "type": "text",
+          "id": "UI8q6",
+          "x": 1108,
+          "y": 70,
+          "name": "instaText",
+          "fill": "#8B6F47",
+          "content": "Instagram",
+          "fontFamily": "Inter",
+          "fontSize": 14,
+          "letterSpacing": 0.02
+        },
+        {
+          "type": "text",
+          "id": "CoDQ1",
+          "x": 96,
+          "y": 226,
+          "name": "copy",
+          "fill": "#5C5C5C",
+          "content": "© 2026 結庵",
+          "fontFamily": "Inter",
+          "fontSize": 13,
+          "letterSpacing": 0.02
+        },
+        {
+          "type": "text",
+          "id": "cqqpa",
+          "x": 930,
+          "y": 226,
+          "name": "closing",
+          "fill": "#5C5C5C",
+          "content": "吉野の山が、あなたを待っています。",
+          "fontFamily": "Noto Sans JP",
+          "fontSize": 14,
+          "letterSpacing": 0.05
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "DZdaD",
+      "x": 1420,
+      "y": 0,
+      "name": "LP Mobile 390",
+      "width": 390,
+      "fill": "#FAF7F2",
+      "layout": "vertical",
+      "gap": 72,
+      "padding": [
+        24,
+        32
+      ],
+      "children": [
+        {
+          "type": "frame",
+          "id": "VauGo",
+          "name": "M Section 1",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 20,
+          "children": [
+            {
+              "type": "frame",
+              "id": "Wr8Rr",
+              "name": "mHeroImage",
+              "metadata": {
+                "type": "unsplash",
+                "username": "herrherrmann",
+                "link": "https://unsplash.com/@herrherrmann",
+                "author": "Sebastian Herrmann"
+              },
+              "clip": true,
+              "width": "fill_container",
+              "height": 320,
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "https://images.unsplash.com/photo-1753849805808-a30c181a847a?fm=jpg&q=80&w=1600&auto=format&fit=crop&ixlib=rb-4.1.0",
+                "mode": "fill"
+              },
+              "cornerRadius": 20
+            },
+            {
+              "type": "text",
+              "id": "hLKtE",
+              "name": "mBrand",
+              "fill": "#8B6F47",
+              "content": "古民家茶寮 結庵",
+              "fontFamily": "Cormorant Garamond",
+              "fontSize": 24,
+              "fontWeight": "500",
+              "letterSpacing": 0.02
+            },
+            {
+              "type": "text",
+              "id": "doUAG",
+              "name": "mHeroTitle",
+              "fill": "#1A1A1A",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "山と、お茶と、\nゆるやかな時間。",
+              "lineHeight": 1.23,
+              "fontFamily": "Noto Serif JP",
+              "fontSize": 46,
+              "fontWeight": "600",
+              "letterSpacing": 0.05
+            },
+            {
+              "type": "text",
+              "id": "AFXUv",
+              "name": "mHeroSub",
+              "fill": "#5C5C5C",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "奈良・吉野山の中腹、築140年の庵にて。",
+              "lineHeight": 1.75,
+              "fontFamily": "Noto Sans JP",
+              "fontSize": 16,
+              "letterSpacing": 0.05
+            },
+            {
+              "type": "frame",
+              "id": "xNiFu",
+              "name": "mHeroBtns",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "YEiNM",
+                  "name": "mPrimary",
+                  "width": "fill_container",
+                  "fill": "#8B6F47",
+                  "cornerRadius": 999,
+                  "padding": [
+                    24,
+                    14
+                  ],
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "y8S3lL",
+                      "name": "mPrimaryTxt",
+                      "fill": "#FAF7F2",
+                      "content": "ご予約はこちら",
+                      "fontFamily": "Noto Sans JP",
+                      "fontSize": 15,
+                      "fontWeight": "500",
+                      "letterSpacing": 0.05
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "bvTFm",
+                  "name": "mSecondary",
+                  "fill": "#8B6F47",
+                  "content": "結庵について",
+                  "fontFamily": "Noto Sans JP",
+                  "fontSize": 15,
+                  "letterSpacing": 0.05
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "g1Hfd3",
+              "name": "mNav",
+              "fill": "#5C5C5C",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "結庵について  /  お品書き  /  庵の四季  /  アクセス  /  ご予約",
+              "lineHeight": 1.7,
+              "fontFamily": "Noto Sans JP",
+              "fontSize": 12,
+              "letterSpacing": 0.05
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "o5EY3U",
+          "name": "M Section 2",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 18,
+          "children": [
+            {
+              "type": "frame",
+              "id": "iimoX",
+              "name": "mStoryImage",
+              "metadata": {
+                "type": "unsplash",
+                "username": "antesamarzija",
+                "link": "https://unsplash.com/@antesamarzija",
+                "author": "Ante Samarzija"
+              },
+              "clip": true,
+              "width": "fill_container",
+              "height": 260,
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "https://images.unsplash.com/photo-1765035058192-edd7ee3e0df0?fm=jpg&q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.1.0",
+                "mode": "fill"
+              },
+              "cornerRadius": 18
+            },
+            {
+              "type": "text",
+              "id": "N3DboI",
+              "name": "mStoryTitle",
+              "fill": "#1A1A1A",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "都会から、吉野の山へ。",
+              "lineHeight": 1.24,
+              "fontFamily": "Noto Serif JP",
+              "fontSize": 38,
+              "fontWeight": "600",
+              "letterSpacing": 0.05
+            },
+            {
+              "type": "text",
+              "id": "d8uXvW",
+              "name": "mStoryP",
+              "fill": "#5C5C5C",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "朽ちかけていた庄屋邸を三年かけて修復し、残すべきものと今の暮らしを丁寧に重ねました。ここに来てくれた人に、時間を返したい。それが結庵の願いです。",
+              "lineHeight": 1.78,
+              "fontFamily": "Noto Sans JP",
+              "fontSize": 15,
+              "letterSpacing": 0.05
+            },
+            {
+              "type": "frame",
+              "id": "mgx3Z",
+              "name": "mStats",
+              "width": "fill_container",
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "CsKy8",
+                  "name": "mStat1",
+                  "fill": "#8B6F47",
+                  "content": "築140年",
+                  "fontFamily": "Noto Serif JP",
+                  "fontSize": 24,
+                  "fontWeight": "500",
+                  "letterSpacing": 0.05
+                },
+                {
+                  "type": "text",
+                  "id": "F3eyM",
+                  "name": "mStat2",
+                  "fill": "#8B6F47",
+                  "content": "修復3年",
+                  "fontFamily": "Noto Serif JP",
+                  "fontSize": 24,
+                  "fontWeight": "500",
+                  "letterSpacing": 0.05
+                },
+                {
+                  "type": "text",
+                  "id": "WMjhE",
+                  "name": "mStat3",
+                  "fill": "#8B6F47",
+                  "content": "茶葉18種",
+                  "fontFamily": "Noto Serif JP",
+                  "fontSize": 24,
+                  "fontWeight": "500",
+                  "letterSpacing": 0.05
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "Q9uZ1J",
+          "name": "M Section 3",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 16,
+          "children": [
+            {
+              "type": "text",
+              "id": "NGyTZ",
+              "name": "mMenuTitle",
+              "fill": "#1A1A1A",
+              "content": "お品書き",
+              "lineHeight": 1.24,
+              "fontFamily": "Noto Serif JP",
+              "fontSize": 38,
+              "fontWeight": "600",
+              "letterSpacing": 0.05
+            },
+            {
+              "type": "frame",
+              "id": "EaIgq",
+              "name": "mMainCard",
+              "width": "fill_container",
+              "fill": "#F3EEE5",
+              "cornerRadius": 18,
+              "stroke": {
+                "align": "inside",
+                "thickness": 1,
+                "fill": "#E8E2D8"
+              },
+              "layout": "vertical",
+              "gap": 12,
+              "padding": 18,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "vG4Rh",
+                  "name": "mMainImg",
+                  "metadata": {
+                    "type": "unsplash",
+                    "username": "yosuke_ota",
+                    "link": "https://unsplash.com/@yosuke_ota",
+                    "author": "Yosuke Ota"
+                  },
+                  "clip": true,
+                  "width": "fill_container",
+                  "height": 180,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "https://images.unsplash.com/photo-1766582931800-fd79665257fa?fm=jpg&q=80&w=1600&auto=format&fit=crop&ixlib=rb-4.1.0",
+                    "mode": "fill"
+                  },
+                  "cornerRadius": 14
+                },
+                {
+                  "type": "text",
+                  "id": "Hi6PF",
+                  "name": "mMainName",
+                  "fill": "#1A1A1A",
+                  "content": "葛と季節の御膳  ¥3,800",
+                  "fontFamily": "Noto Serif JP",
+                  "fontSize": 28,
+                  "fontWeight": "500",
+                  "letterSpacing": 0.05
+                },
+                {
+                  "type": "text",
+                  "id": "p0Klw",
+                  "name": "mMainDesc",
+                  "fill": "#5C5C5C",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "吉野本葛を使った主菜、季節の野草の小鉢、月ヶ瀬の煎茶。",
+                  "lineHeight": 1.75,
+                  "fontFamily": "Noto Sans JP",
+                  "fontSize": 15,
+                  "letterSpacing": 0.05
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "g3ROU3",
+              "name": "mSubCard1",
+              "width": "fill_container",
+              "fill": "#F3EEE5",
+              "cornerRadius": 16,
+              "stroke": {
+                "align": "inside",
+                "thickness": 1,
+                "fill": "#E8E2D8"
+              },
+              "layout": "vertical",
+              "gap": 10,
+              "padding": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "qOKVb",
+                  "name": "mSub1Img",
+                  "metadata": {
+                    "type": "unsplash",
+                    "username": "bundo",
+                    "link": "https://unsplash.com/@bundo",
+                    "author": "Bundo Kim"
+                  },
+                  "clip": true,
+                  "width": "fill_container",
+                  "height": 140,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "https://images.unsplash.com/photo-1582466184450-a02125424858?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgwODAzNTF8&ixlib=rb-4.1.0&q=80&w=1080",
+                    "mode": "fill"
+                  },
+                  "cornerRadius": 12
+                },
+                {
+                  "type": "text",
+                  "id": "P3ze20",
+                  "name": "mSub1Text",
+                  "fill": "#1A1A1A",
+                  "content": "結庵の葛きり  ¥1,400",
+                  "fontFamily": "Noto Serif JP",
+                  "fontSize": 23,
+                  "fontWeight": "500",
+                  "letterSpacing": 0.05
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "a1Dmn8",
+              "name": "mSubCard2",
+              "width": "fill_container",
+              "fill": "#F3EEE5",
+              "cornerRadius": 16,
+              "stroke": {
+                "align": "inside",
+                "thickness": 1,
+                "fill": "#E8E2D8"
+              },
+              "layout": "vertical",
+              "gap": 10,
+              "padding": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "YqMBA",
+                  "name": "mSub2Img",
+                  "metadata": {
+                    "type": "unsplash",
+                    "username": "mediha32",
+                    "link": "https://unsplash.com/@mediha32",
+                    "author": "mediha ekici"
+                  },
+                  "clip": true,
+                  "width": "fill_container",
+                  "height": 140,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "https://images.unsplash.com/photo-1766232574096-4c4380105cc7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgwODAzNTJ8&ixlib=rb-4.1.0&q=80&w=1080",
+                    "mode": "fill"
+                  },
+                  "cornerRadius": 12
+                },
+                {
+                  "type": "text",
+                  "id": "u2sgO",
+                  "name": "mSub2Text",
+                  "fill": "#1A1A1A",
+                  "content": "山の薬草茶  ¥800",
+                  "fontFamily": "Noto Serif JP",
+                  "fontSize": 23,
+                  "fontWeight": "500",
+                  "letterSpacing": 0.05
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "aU5jz",
+              "name": "mMenuLink",
+              "fill": "#8B6F47",
+              "content": "お品書きをすべて見る",
+              "fontFamily": "Noto Sans JP",
+              "fontSize": 15,
+              "fontWeight": "500",
+              "letterSpacing": 0.05
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "C4SDTB",
+          "name": "M Section 4",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 14,
+          "children": [
+            {
+              "type": "text",
+              "id": "e9cHOF",
+              "name": "mS4Title",
+              "fill": "#1A1A1A",
+              "content": "庵の四季",
+              "lineHeight": 1.24,
+              "fontFamily": "Noto Serif JP",
+              "fontSize": 38,
+              "fontWeight": "600",
+              "letterSpacing": 0.05
+            },
+            {
+              "type": "frame",
+              "id": "R4mxLX",
+              "name": "mSpring",
+              "metadata": {
+                "type": "unsplash",
+                "username": "bweeman",
+                "link": "https://unsplash.com/@bweeman",
+                "author": "Joey Han"
+              },
+              "clip": true,
+              "width": "fill_container",
+              "height": 220,
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "https://images.unsplash.com/photo-1712244876693-a89f6172178e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgxNjQ1NTV8&ixlib=rb-4.1.0&q=80&w=1080",
+                "mode": "fill"
+              },
+              "cornerRadius": 16
+            },
+            {
+              "type": "frame",
+              "id": "I9lUwC",
+              "name": "mSummerRow",
+              "width": "fill_container",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "EZAjj",
+                  "name": "mSummer",
+                  "metadata": {
+                    "type": "unsplash",
+                    "username": "hattrick1996",
+                    "link": "https://unsplash.com/@hattrick1996",
+                    "author": "Hat Trick"
+                  },
+                  "clip": true,
+                  "width": "fill_container",
+                  "height": 140,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "https://images.unsplash.com/photo-1769559088810-17e50f9c3559?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgxNjQ1NTV8&ixlib=rb-4.1.0&q=80&w=1080",
+                    "mode": "fill"
+                  },
+                  "cornerRadius": 14
+                },
+                {
+                  "type": "frame",
+                  "id": "lomGw",
+                  "name": "mAutumn",
+                  "metadata": {
+                    "type": "unsplash",
+                    "username": "tokyokohaku",
+                    "link": "https://unsplash.com/@tokyokohaku",
+                    "author": "Tokyo Kohaku"
+                  },
+                  "clip": true,
+                  "width": "fill_container",
+                  "height": 140,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "https://images.unsplash.com/photo-1606290598946-ce3c1751e038?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgxNjQ1NTZ8&ixlib=rb-4.1.0&q=80&w=1080",
+                    "mode": "fill"
+                  },
+                  "cornerRadius": 14
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "rmIM1",
+              "name": "mWinter",
+              "metadata": {
+                "type": "unsplash",
+                "username": "asoggetti",
+                "link": "https://unsplash.com/@asoggetti",
+                "author": "Alessio Soggetti"
+              },
+              "clip": true,
+              "width": "fill_container",
+              "height": 180,
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "https://images.unsplash.com/photo-1531436040007-7216019112d7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgxNjQ2NzJ8&ixlib=rb-4.1.0&q=80&w=1080",
+                "mode": "fill"
+              },
+              "cornerRadius": 16
+            },
+            {
+              "type": "text",
+              "id": "dno5N",
+              "name": "mQuote",
+              "fill": "#8B6F47",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "古い家には、時間が住んでいる。",
+              "lineHeight": 1.3,
+              "fontFamily": "Noto Serif JP",
+              "fontSize": 26,
+              "fontWeight": "500",
+              "letterSpacing": 0.05
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "Y0G7C",
+          "name": "M Section 5",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 14,
+          "children": [
+            {
+              "type": "text",
+              "id": "WmwDr",
+              "name": "mS5Title",
+              "fill": "#1A1A1A",
+              "content": "一日の流れ",
+              "lineHeight": 1.24,
+              "fontFamily": "Noto Serif JP",
+              "fontSize": 38,
+              "fontWeight": "600",
+              "letterSpacing": 0.05
+            },
+            {
+              "type": "text",
+              "id": "MjUJl",
+              "name": "mT1",
+              "fill": "#5C5C5C",
+              "content": "11:00  お迎えと、最初のお茶",
+              "fontFamily": "Noto Sans JP",
+              "fontSize": 16,
+              "letterSpacing": 0.05
+            },
+            {
+              "type": "text",
+              "id": "CYIOo",
+              "name": "mT2",
+              "fill": "#5C5C5C",
+              "content": "12:00  季節の御膳",
+              "fontFamily": "Noto Sans JP",
+              "fontSize": 16,
+              "letterSpacing": 0.05
+            },
+            {
+              "type": "text",
+              "id": "u35haO",
+              "name": "mT3",
+              "fill": "#5C5C5C",
+              "content": "14:00  庭を歩く時間",
+              "fontFamily": "Noto Sans JP",
+              "fontSize": 16,
+              "letterSpacing": 0.05
+            },
+            {
+              "type": "text",
+              "id": "sq62l",
+              "name": "mT4",
+              "fill": "#5C5C5C",
+              "content": "15:00  蔵席で甘味を",
+              "fontFamily": "Noto Sans JP",
+              "fontSize": 16,
+              "letterSpacing": 0.05
+            },
+            {
+              "type": "text",
+              "id": "uzF9q",
+              "name": "mT5",
+              "fill": "#5C5C5C",
+              "content": "16:30  帰り際の一服",
+              "fontFamily": "Noto Sans JP",
+              "fontSize": 16,
+              "letterSpacing": 0.05
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "rdgkz",
+          "name": "M Section 6",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 16,
+          "children": [
+            {
+              "type": "text",
+              "id": "fRsNp",
+              "name": "mS6Title",
+              "fill": "#1A1A1A",
+              "content": "アクセス",
+              "lineHeight": 1.24,
+              "fontFamily": "Noto Serif JP",
+              "fontSize": 38,
+              "fontWeight": "600",
+              "letterSpacing": 0.05
+            },
+            {
+              "type": "frame",
+              "id": "r5nLq",
+              "name": "mMap",
+              "metadata": {
+                "type": "unsplash",
+                "username": "tsuyoshikozu",
+                "link": "https://unsplash.com/@tsuyoshikozu",
+                "author": "Tsuyoshi Kozu"
+              },
+              "clip": true,
+              "width": "fill_container",
+              "height": 220,
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "https://images.unsplash.com/photo-1772696572566-9a3b66cd8f2d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgwODAzNzB8&ixlib=rb-4.1.0&q=80&w=1080",
+                "mode": "fill"
+              },
+              "cornerRadius": 16
+            },
+            {
+              "type": "text",
+              "id": "lmr2o",
+              "name": "mAccess",
+              "fill": "#5C5C5C",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "奈良県吉野郡吉野町吉野山（架空番地）\n近鉄吉野線 吉野駅から車で約15分\n参道徒歩約30分 / 駐車場4台",
+              "lineHeight": 1.78,
+              "fontFamily": "Noto Sans JP",
+              "fontSize": 15,
+              "letterSpacing": 0.05
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "tRInX",
+          "name": "M Section 7",
+          "width": "fill_container",
+          "fill": "#F3EEE5",
+          "cornerRadius": 16,
+          "stroke": {
+            "align": "inside",
+            "thickness": 1,
+            "fill": "#E8E2D8"
+          },
+          "layout": "vertical",
+          "gap": 14,
+          "padding": [
+            24,
+            20
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "DqZ0E",
+              "name": "mS7Title",
+              "fill": "#1A1A1A",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "お席のご予約を承ります",
+              "lineHeight": 1.24,
+              "fontFamily": "Noto Serif JP",
+              "fontSize": 34,
+              "fontWeight": "600",
+              "letterSpacing": 0.05
+            },
+            {
+              "type": "text",
+              "id": "YcI2T",
+              "name": "mS7Lead",
+              "fill": "#5C5C5C",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "席数が限られております。お早めのご連絡をお願いいたします。",
+              "lineHeight": 1.75,
+              "fontFamily": "Noto Sans JP",
+              "fontSize": 15,
+              "letterSpacing": 0.05
+            },
+            {
+              "type": "frame",
+              "id": "x1P5qU",
+              "name": "mS7Btn",
+              "width": "fill_container",
+              "fill": "#8B6F47",
+              "cornerRadius": 999,
+              "padding": [
+                22,
+                14
+              ],
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "VLL1J",
+                  "name": "mS7BtnTxt",
+                  "fill": "#FAF7F2",
+                  "content": "ネット予約",
+                  "fontFamily": "Noto Sans JP",
+                  "fontSize": 15,
+                  "fontWeight": "500",
+                  "letterSpacing": 0.05
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "oDpeU",
+              "name": "mS7Phone",
+              "fill": "#8B6F47",
+              "content": "お電話（0746-XX-XXXX）",
+              "fontFamily": "Noto Sans JP",
+              "fontSize": 15,
+              "fontWeight": "500",
+              "letterSpacing": 0.05
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "tDrMm",
+          "name": "M Section 8",
+          "width": "fill_container",
+          "fill": "#F3EEE5",
+          "cornerRadius": 14,
+          "layout": "vertical",
+          "gap": 8,
+          "padding": [
+            20,
+            16
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "BuZje",
+              "name": "mLogo",
+              "fill": "#1A1A1A",
+              "content": "結庵",
+              "fontFamily": "Cormorant Garamond",
+              "fontSize": 42,
+              "fontWeight": "500",
+              "letterSpacing": 0.02
+            },
+            {
+              "type": "text",
+              "id": "UX0R9",
+              "name": "mInfo",
+              "fill": "#5C5C5C",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "木〜日 11:00 - 17:00（LO 16:30）\n奈良県吉野郡吉野町吉野山（架空番地）",
+              "lineHeight": 1.75,
+              "fontFamily": "Noto Sans JP",
+              "fontSize": 13,
+              "letterSpacing": 0.05
+            },
+            {
+              "type": "text",
+              "id": "zZLAG",
+              "name": "mCopy",
+              "fill": "#5C5C5C",
+              "content": "© 2026 結庵",
+              "fontFamily": "Inter",
+              "fontSize": 12,
+              "letterSpacing": 0.02
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
